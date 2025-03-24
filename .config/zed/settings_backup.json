@@ -1,0 +1,115 @@
+{
+  "theme": "One Dark Pro",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "autosave": "on_window_change",
+  // UI
+  "ui_font_size": 16,
+  "ui_font_family": "CodeNewRoman Nerd Font Mono",
+  // Editor
+  "buffer_font_size": 16,
+  "buffer_font_family": "Roboto Mono",
+  "buffer_font_features": {
+    "calt": false
+  },
+  "toolbar": {
+    // Whether to show breadcrumbs.
+    "breadcrumbs": true,
+    // Whether to show quick action buttons.
+    "quick_actions": false,
+    // Whether to show the Selections menu in the editor toolbar
+    "selections_menu": false
+  },
+  "tabs": {
+    "git_status": true
+  },
+  // Other
+  "confirm_quit": true,
+  "inline_completions": {
+    "disabled_globs": [".env"]
+  },
+  "current_line_highlight": "all",
+  "chat_panel": {
+    // Whether to show the chat panel button in the status bar.
+    "button": false
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "notification_panel": {
+    // Whether to show the notification panel button in the status bar.
+    "button": false
+  },
+  "soft_wrap": "editor_width",
+  "terminal": {
+    "button": true,
+    "copy_on_select": true,
+    "blinking": "on",
+    "font_family": "Roboto Mono"
+  },
+  "features": {
+    "inline_completion_provider": "none"
+  },
+  // "assistant": {
+  //   // Version of this setting.
+  //   "default_model": {
+  //     "provider": "openai",
+  //     "model": "gpt-4o-mini"
+  //   },
+  //   "version": "2",
+  //   // Whether the assistant is enabled.
+  //   "enabled": true,
+  //   // Whether to show the assistant panel button in the status bar.
+  //   "button": true,
+  //   // Where to dock the assistant panel. Can be 'left', 'right' or 'bottom'.
+  //   "dock": "right",
+  //   // AI provider.
+  //   "provider": null
+  // },
+  "collaboration_panel": {
+    "button": false
+  },
+  "preferences": {
+    "includeInlayParameterNameHints": "all",
+    "includeInlayParameterNameHintsWhenArgumentMatchesName": true,
+    "includeInlayFunctionParameterTypeHints": true,
+    "includeInlayVariableTypeHints": true,
+    "includeInlayVariableTypeHintsWhenTypeMatchesName": true,
+    "includeInlayPropertyDeclarationTypeHints": true,
+    "includeInlayFunctionLikeReturnTypeHints": true,
+    "includeInlayEnumMemberValueHints": true
+  },
+  "languages": {
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    }
+  },
+  "prettier": {
+    // Whether to consider prettier formatter or not when attempting to format a file.
+    "allowed": true,
+    //
+    // Use regular Prettier json configuration.
+    // If Prettier is allowed, Zed will use this for its Prettier instance for any applicable file, if
+    // the project has no other Prettier installed.
+    "plugins": [],
+    //
+    // Use regular Prettier json configuration.
+    // If Prettier is allowed, Zed will use this for its Prettier instance for any applicable file, if
+    // the project has no other Prettier installed.
+    "tabWidth": 2,
+    "bracketSpacing": true,
+    "trailingComma": "es5",
+    "semi": false,
+    "jsxSingleQuote": false,
+    "singleQuote": true
+  }
+}
