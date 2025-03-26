@@ -1,24 +1,47 @@
 {
+  // 界面设置
+  "theme": "One Dark",
   "icon_theme": "Material Icon Theme",
-  "current_line_highlight": "all",
-  "ui_font_size": 16, // 编辑器
   "ui_font_family": "CodeNewRoman Nerd Font Mono",
-  "buffer_font_size": 14, // 编辑器中渲染文本
   "buffer_font_family": "CodeNewRoman Nerd Font Mono",
+
+  // 项目面板
   "project_panel": {
     "dock": "right"
   },
 
-  // Base settings
+  // 基础设置
   "autosave": "on_focus_change",
+
+  // zed 特性
   "features": {
     "edit_prediction_provider": "zed"
   },
+
+  // ai 助手
   "assistant": {
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-3-7-sonnet-latest"
     },
     "version": "2"
+  },
+
+  // 错误显示
+  "diagnostics": {
+    "include_warnings": false,
+    "inline": {
+      "enabled": true,
+      "update_debounce_ms": 150,
+      "padding": 4,
+      "min_column": 0,
+      "max_severity": null
+    }
+  },
+
+  // 遥测
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
   }
 }
