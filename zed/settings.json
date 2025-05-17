@@ -1,0 +1,44 @@
+{
+  // 键位
+  "icon_theme": "Material Icon Theme",
+  "base_keymap": "VSCode",
+  "autosave": "on_focus_change",
+  "format_on_save": "language_server",
+  // 嵌入提示
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true
+  },
+  // 错误诊断
+  "diagnostics": {
+    "enabled": true,
+    "include_warnings": true,
+    "inline": {
+      "enabled": true,
+      "update_debounce_ms": 150,
+      "padding": 4,
+      "min_column": 0,
+      "max_severity": null
+    }
+  },
+  // Other
+  "auto_update": true,
+  // "icon_theme": "Material Icon Theme",
+  "ui_font_size": 15,
+  "buffer_font_size": 15,
+  "ui_font_family": "CodeNewRoman Nerd Font Mono",
+  "buffer_font_family": "CodeNewRoman Nerd Font Mono",
+  "font_family": "CodeNewRoman Nerd Font Mono",
+  "project_panel": {
+    "dock": "right"
+  },
+  "theme": {
+    "mode": "dark",
+    "light": "One Dark",
+    "dark": "Tokyo Night"
+  },
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  }
+}

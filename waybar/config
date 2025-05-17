@@ -1,0 +1,30 @@
+{
+    "include": "~/.config/waybar/modules",
+    "layer": "bottom",
+    //"mode": "dock",
+    "position": "top",
+    "height": 18,
+    //"passthrough": false,
+    //"ipc":true,
+    //"spacing": 3,
+    "reload_style_on_change": true,
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/window",
+    ],
+    "modules-center": [
+        "hyprland/scratchpad",
+        "clock",
+    ],
+    "modules-right": [
+        "tray",
+        "idle_inhibitor",
+        "network",
+        "group/hardware",
+        "battery",
+        "pulseaudio",
+        "backlight",
+    ],
+}
+
+
